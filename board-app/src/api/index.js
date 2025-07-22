@@ -1,8 +1,9 @@
-import axios from 'axios';
+import axios from 'axios'
 
 const instance = axios.create({
-  baseURL: 'https://hj-was-gcewbud8d0g0hff9.koreacentral-01.azurewebsites.net'
-});
+	baseURL:
+		'https://hj-was-gcewbud8d0g0hff9.koreacentral-01.azurewebsites.net',
+})
 
 export default instance;
 
